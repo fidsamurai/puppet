@@ -18,8 +18,8 @@ forge "https://forgeapi.puppetlabs.com"
    :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
    :ref => '1.4.x'
 
-mod 'testrepo'
-  :git => 'https://github.com/fidsamurai/testrepo.git'
-  :branch => 'master'
+ mod 'testrepo',
+   :git => 'https://github.com/fidsamurai/testrepo.git',
+   :branch => 'master'
 # A module from Github pre-packaged tarball
 # mod 'puppetlabs-apache', '0.6.0', :github_tarball => 'puppetlabs/puppetlabs-apache'

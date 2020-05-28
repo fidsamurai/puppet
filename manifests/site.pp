@@ -1,3 +1,3 @@
-node /agent/ {
+node /fid-puppet/ {
 	include role::lamp
 }
